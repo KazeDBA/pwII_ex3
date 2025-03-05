@@ -10,11 +10,11 @@ class UserGenerator
 
     public function __construct()
     {
-        // Inicializa o Faker para português do Brasil
+        
         $this->faker = Factory::create('pt_BR');
     }
 
-    // Gera um usuário fake
+    
     public function generateUser()
     {
         return [
@@ -25,7 +25,7 @@ class UserGenerator
         ];
     }
 
-    // Gera uma lista de usuários
+    
     public function generateUsers($quantity = 5)
     {
         $users = [];
@@ -35,7 +35,7 @@ class UserGenerator
         return $users;
     }
 
-    // Exibe os dados em formato JSON
+    
     public function toJson($data)
     {
         return json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
