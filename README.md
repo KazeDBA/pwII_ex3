@@ -1,6 +1,6 @@
 # PWII Ex3 - Gerador de Usuários Falsos
 
-Este projeto é uma aplicação simples que utiliza o pacote `fakerphp/faker` para gerar dados falsos de usuários e o pacote `mpdf/mpdf` para gerar PDFs.
+Este projeto é uma aplicação simples que utiliza o pacote `fakerphp/faker` para gerar dados falsos de usuários.
 
 ## Instalação
 
