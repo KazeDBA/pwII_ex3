@@ -18,7 +18,7 @@ class UserGenerator
     public function generateUser()
     {
         return [
-            'name' => $this->faker->name(), // Alterado de 'nome' para 'name'
+            'name' => $this->faker->name(), 
             'email' => $this->faker->email(),
             'telefone' => $this->faker->phoneNumber(),
             'cidade' => $this->faker->city(),
